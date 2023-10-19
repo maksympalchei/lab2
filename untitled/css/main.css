@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color:blue;
+}
+body{
+  overflow-x:hidden;
+  background-color: antiquewhite;
+}
+a:hover{
+  border-bottom: 1px solid;
+}
+.thtext
+{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+}
+h1 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p1{
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+.pheader{
+  text-decoration: underline;
+}
+#point1{
+  margin-top: 30px;
+}
+
+.tablica{
+  margin-top: 30px;
+  display: block;
+}
+
+#point2{
+  margin-top: 30px;
+}
+
+#point3{
+  margin-top: 30px;
+}
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table{
+  margin-top: 30px;
+}
+
+.header-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-slogan {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav li {
+  margin: 0 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+.picture img {
+  height: 200px;
+  width: 250px;
+  display:flex;
+  flex-direction: row;
+  min-width: 250px;
+  border: 2px solid black;
+  transition: transform 0.5s ease-in-out;
+}
+.picture img:hover {
+  transform: scale(1.1);
+}
+.picture {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.vid {
+  margin-top: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
